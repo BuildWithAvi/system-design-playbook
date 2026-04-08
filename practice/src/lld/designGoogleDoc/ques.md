@@ -43,3 +43,27 @@ Design a system where:
 - Multiple users can edit simultaneously
 - Changes are merged correctly
 - No data is lost
+---
+
+
+# 🧪 Sample Input & Expected Output
+---
+## 🔹 Example : Insert vs Delete
+Input:- A insert 0 Hello
+
+Output:- Updated Document: Hello
+
+Input:- B insert 0 World
+
+Output:- Updated Document: WorldHello
+
+Input:- A delete 5 5
+
+Output:- Updated Document: World
+
+Input:-  B insert 5 !!!
+
+Output:- Updated Document: World!!!
+
+
+
